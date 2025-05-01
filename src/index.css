@@ -1,0 +1,24 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@700&display=swap');
+@theme {
+  --font-figtre: "Figtree"; 
+  --font-inter: "Inter"; 
+  --color-primary: #5D50C6;
+  --color-primary-hover: #4b3fa8;
+  --color-secondary: #F85E9F;
+  --color-highlight: #FF5722;
+}
+
+/* Custom style */
+@layer base {
+  h1 {
+    @apply font-figtre;
+  }
+  html {
+    @apply font-inter;
+  }
+}
+
+/* Tailwind Style */
+@import "tailwindcss";
